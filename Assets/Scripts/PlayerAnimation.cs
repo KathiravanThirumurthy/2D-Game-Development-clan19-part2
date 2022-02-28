@@ -55,4 +55,9 @@ public class PlayerAnimation : MonoBehaviour
         //setting scale to the localScale of the Player
         transform.localScale = scale; 
     }
+
+    public void playerDead(bool dead)
+    {
+        anim.SetBool("isDead", dead);
+    }
 }
