@@ -607,6 +607,10 @@
       <Project>{492D6A22-F432-3523-C2AF-00055AB6C021}</Project>
       <Name>Unity.Timeline.Editor</Name>
     </ProjectReference>
+    <ProjectReference Include="Cinemachine.csproj">
+      <Project>{F5D48AE6-FF25-5DB3-0317-102447CD173B}</Project>
+      <Name>Cinemachine</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.2D.Animation.Runtime.csproj">
       <Project>{E1EE40C8-A7C7-C0B5-A58C-EF8EACA3BD64}</Project>
       <Name>Unity.2D.Animation.Runtime</Name>
@@ -691,6 +695,10 @@
       <Project>{C0747E43-6D94-95CA-7401-631DE77F1B4A}</Project>
       <Name>Unity.2D.Animation.Editor</Name>
     </ProjectReference>
+    <ProjectReference Include="com.unity.cinemachine.editor.csproj">
+      <Project>{B702F0D5-D3E3-37A7-C07D-E944759C3790}</Project>
+      <Name>com.unity.cinemachine.editor</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.Mathematics.Editor.csproj">
       <Project>{F7B614E1-5456-4B28-299A-2C350243D99F}</Project>
       <Name>Unity.Mathematics.Editor</Name>
@@ -710,14 +718,6 @@
     <ProjectReference Include="UnityEditor.UI.csproj">
       <Project>{A7369D27-1022-C269-4A64-B303236CA537}</Project>
       <Name>UnityEditor.UI</Name>
-    </ProjectReference>
-    <ProjectReference Include="Cinemachine.csproj">
-      <Project>{F5D48AE6-FF25-5DB3-0317-102447CD173B}</Project>
-      <Name>Cinemachine</Name>
-    </ProjectReference>
-    <ProjectReference Include="com.unity.cinemachine.editor.csproj">
-      <Project>{B702F0D5-D3E3-37A7-C07D-E944759C3790}</Project>
-      <Name>com.unity.cinemachine.editor</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

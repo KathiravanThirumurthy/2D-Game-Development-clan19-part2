@@ -56,7 +56,7 @@ public class PlayerController : MonoBehaviour
         // Checking for the Space bar pressed - to play jump animation
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            Debug.Log("Space key");
+           
             // Checking the player is grounded
             if (isGrounded)
             {
@@ -105,6 +105,10 @@ public class PlayerController : MonoBehaviour
             isGrounded = true;
             // calling the jumping method from the PlayerAnimation Script to jump
             _playerAnimation.jumping(false);
+        }else if(collision.gameObject.tag == "Deathline")
+        {
+            Debug.Log("Dead");
+            _playerAnimation.playerDead(true);
         }
 
     }
