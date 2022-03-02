@@ -64,11 +64,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-<<<<<<< HEAD
-=======
     <Compile Include="Assets\Scripts\Collectables\KeyController.cs" />
     <Compile Include="Assets\Scripts\Collectables\ScoreManager.cs" />
->>>>>>> 0f1eb10609a7e45a51606608233ccf20bc91a316
     <Compile Include="Assets\Scripts\LevelController.cs" />
     <Compile Include="Assets\Scripts\PlayerAnimation.cs" />
     <Compile Include="Assets\Scripts\PlayerController.cs" />
