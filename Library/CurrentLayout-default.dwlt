@@ -148,8 +148,13 @@ MonoBehaviour:
   m_MinSize: {x: 232, y: 492}
   m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
+<<<<<<< HEAD
   controlID: 98
 --- !u!114 &7
+=======
+  controlID: 107
+--- !u!114 &4
+>>>>>>> Feature5-Collectable
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -220,8 +225,13 @@ MonoBehaviour:
   m_MinSize: {x: 709, y: 492}
   m_MaxSize: {x: 18004, y: 14042}
   vertical: 0
+<<<<<<< HEAD
   controlID: 141
 --- !u!114 &10
+=======
+  controlID: 155
+--- !u!114 &7
+>>>>>>> Feature5-Collectable
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -263,11 +273,16 @@ MonoBehaviour:
     y: 0
     width: 821
     height: 947
-  m_MinSize: {x: 201, y: 442}
-  m_MaxSize: {x: 4001, y: 8042}
+  m_MinSize: {x: 201, y: 421}
+  m_MaxSize: {x: 4001, y: 8021}
   vertical: 1
+<<<<<<< HEAD
   controlID: 59
 --- !u!114 &12
+=======
+  controlID: 86
+--- !u!114 &9
+>>>>>>> Feature5-Collectable
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -284,11 +299,19 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
     width: 520
     height: 310
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 17}
+=======
+    width: 558
+    height: 420
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
+  m_ActualView: {fileID: 16}
+>>>>>>> Feature5-Collectable
   m_Panes:
   - {fileID: 17}
   m_Selected: 0
@@ -314,7 +337,11 @@ MonoBehaviour:
     height: 947
   m_MinSize: {x: 276, y: 71}
   m_MaxSize: {x: 4001, y: 4021}
+<<<<<<< HEAD
   m_ActualView: {fileID: 18}
+=======
+  m_ActualView: {fileID: 17}
+>>>>>>> Feature5-Collectable
   m_Panes:
   - {fileID: 18}
   m_Selected: 0
@@ -361,12 +388,21 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
+<<<<<<< HEAD
     y: 485
     width: 821
     height: 462
   m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 20}
+=======
+    y: 433
+    width: 847
+    height: 514
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 19}
+>>>>>>> Feature5-Collectable
   m_Panes:
   - {fileID: 20}
   m_Selected: 0
@@ -426,9 +462,15 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
+<<<<<<< HEAD
       m_SelectedIDs: 3e3c0000
       m_LastClickedID: 0
       m_ExpandedIDs: d8faffff60fbffff
+=======
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: 60fbffff
+>>>>>>> Feature5-Collectable
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -539,10 +581,17 @@ MonoBehaviour:
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
+<<<<<<< HEAD
     scrollPos: {x: 0, y: 156}
     m_SelectedIDs: 2e3c0000
     m_LastClickedID: 15406
     m_ExpandedIDs: 00000000623b0000643b0000663b0000683b00006a3b00006c3b00006e3b0000703b000000ca9a3b
+=======
+    scrollPos: {x: 0, y: 298}
+    m_SelectedIDs: 963f0000
+    m_LastClickedID: 16278
+    m_ExpandedIDs: 00000000c23e0000c43e0000c63e0000c83e0000ca3e0000cc3e0000ce3e0000d03e0000903f000000ca9a3b
+>>>>>>> Feature5-Collectable
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -570,7 +619,11 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
+<<<<<<< HEAD
     m_ExpandedIDs: 00000000623b0000643b0000663b0000683b00006a3b00006c3b00006e3b0000703b0000
+=======
+    m_ExpandedIDs: 00000000c23e0000c43e0000c63e0000c83e0000ca3e0000cc3e0000ce3e0000d03e0000
+>>>>>>> Feature5-Collectable
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -597,8 +650,13 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
+<<<<<<< HEAD
     m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: 
+=======
+    m_HadKeyboardFocusLastEvent: 0
+    m_ExpandedInstanceIDs: a6480000d24e00002c4f0000000000005c5000004a50000054410000484100002a430000f4430000e44f0000dc4f000088420000ae400000f03d0000f83d0000003e0000e63d0000f23d0000c83d00001a530000
+>>>>>>> Feature5-Collectable
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
