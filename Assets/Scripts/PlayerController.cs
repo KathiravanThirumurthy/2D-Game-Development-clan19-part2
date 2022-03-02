@@ -117,8 +117,14 @@ public class PlayerController : MonoBehaviour
 
     public void pickUpKey(int score)
     {
-        Debug.Log("Score:" + score);
+       // Debug.Log("Score:" + score);
         _scoreController.incrementScore(score);
+    }
+
+    public void playerDead(bool playerState)
+    {
+        Debug.Log("Player Dead");
+        _playerAnimation.playerDead(playerState);
     }
 
 

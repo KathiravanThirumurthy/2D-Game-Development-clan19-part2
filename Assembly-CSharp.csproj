@@ -66,6 +66,8 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\Collectables\KeyController.cs" />
     <Compile Include="Assets\Scripts\Collectables\ScoreManager.cs" />
+    <Compile Include="Assets\Scripts\Enemies\ChomperEnemy.cs" />
+    <Compile Include="Assets\Scripts\Enemies\Enemy.cs" />
     <Compile Include="Assets\Scripts\LevelController.cs" />
     <Compile Include="Assets\Scripts\PlayerAnimation.cs" />
     <Compile Include="Assets\Scripts\PlayerController.cs" />
