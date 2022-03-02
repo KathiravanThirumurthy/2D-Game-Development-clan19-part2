@@ -50,11 +50,13 @@ public class PlayerController : MonoBehaviour
     {
         // Checking the for Left and Arrow keys
         float move = Input.GetAxisRaw("Horizontal");
+        float vertical = Input.GetAxisRaw("Jump");
         //Calling flipPlayer method to flip the Player
         _playerAnimation.flipPlayer(move);
         // Checking for the Space bar pressed - to play jump animation
         if (Input.GetKeyDown(KeyCode.Space))
         {
+           
             // Checking the player is grounded
             if (isGrounded)
             {
@@ -103,6 +105,10 @@ public class PlayerController : MonoBehaviour
             isGrounded = true;
             // calling the jumping method from the PlayerAnimation Script to jump
             _playerAnimation.jumping(false);
+        }else if(collision.gameObject.tag == "Deathline")
+        {
+            Debug.Log("Dead");
+            _playerAnimation.playerDead(true);
         }
 
     }
