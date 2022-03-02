@@ -10,6 +10,8 @@ using UnityEngine;
 /// </summary>
 public class PlayerController : MonoBehaviour
 {
+    [SerializeField]
+    private ScoreManager _scoreController;
     // speed of the Player
     [SerializeField]
     private float _speed;
@@ -111,6 +113,12 @@ public class PlayerController : MonoBehaviour
             _playerAnimation.playerDead(true);
         }
 
+    }
+
+    public void pickUpKey(int score)
+    {
+        Debug.Log("Score:" + score);
+        _scoreController.incrementScore(score);
     }
 
 
