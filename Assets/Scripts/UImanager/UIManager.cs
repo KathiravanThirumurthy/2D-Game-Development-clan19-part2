@@ -9,6 +9,11 @@ public class UIManager : MonoBehaviour
     public static UIManager instance;
     [SerializeField]
     private Image[] _lives;
+    [SerializeField]
+    private Button _resetBtn;
+    [SerializeField]
+    private Button _quitBtn;
+
 
     void Awake()
     {
@@ -56,6 +61,12 @@ public class UIManager : MonoBehaviour
         SceneManager.LoadScene(scene, LoadSceneMode.Single);
         Time.timeScale = 1;
 
+    }
+
+    public void Quit()
+    {
+        Debug.Log("Quit Application");
+        Application.Quit();
     }
 }
 

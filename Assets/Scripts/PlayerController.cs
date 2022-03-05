@@ -11,6 +11,8 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     [SerializeField]
+    private GameObject _gameOver;
+    [SerializeField]
     private ScoreManager _scoreController;
     // speed of the Player
     [SerializeField]
@@ -147,7 +149,8 @@ public class PlayerController : MonoBehaviour
         {
             
             _playerAnimation.playerDead(true);
-            UIManager.instance.restartCurrentScene();
+            _gameOver.SetActive(true);
+           // UIManager.instance.restartCurrentScene();
             Debug.Log("Remaining Lives : " + _lives);
         }
 
