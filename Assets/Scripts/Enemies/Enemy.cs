@@ -7,9 +7,7 @@ using UnityEngine;
 /// </summary>
 public abstract class Enemy : MonoBehaviour
 {
-    // health of the enemy
-    [SerializeField]
-    protected int health;
+   
     // speed for
     [SerializeField]
     protected int speed;

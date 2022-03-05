@@ -28,6 +28,9 @@ public class PlayerController : MonoBehaviour
     private SpriteRenderer sr;
     // Player Animation Script is created as a separate class which is attached to the Player 
     private PlayerAnimation _playerAnimation;
+    //No. of lives
+    [SerializeField]
+    private int _lives;
     
     private void Awake()
     {
@@ -123,8 +126,31 @@ public class PlayerController : MonoBehaviour
 
     public void playerDead(bool playerState)
     {
-        Debug.Log("Player Dead");
-        _playerAnimation.playerDead(playerState);
+        Debug.Log("Player was hit");
+        //_playerAnimation.playerDead(playerState);
+        Damage();
+    }
+
+    public void Damage()
+    {
+        
+        _lives--;
+        UIManager.instance.UpdateLives(_lives);
+
+        if (_lives < 0)
+        {
+
+            Debug.Log("Player Killed by the EnemyChomper ");
+            UIManager.instance.UpdateLives(_lives);
+        }
+        else if ( _lives == 0)
+        {
+            
+            _playerAnimation.playerDead(true);
+            UIManager.instance.restartCurrentScene();
+            Debug.Log("Remaining Lives : " + _lives);
+        }
+
     }
 
 
