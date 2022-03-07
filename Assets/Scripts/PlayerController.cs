@@ -12,6 +12,8 @@ public class PlayerController : MonoBehaviour
 {
     [SerializeField]
     private ScoreManager _scoreController;
+    [SerializeField]
+    private Gameover _gameOverController;
     // speed of the Player
     [SerializeField]
     private float _speed;
@@ -114,6 +116,8 @@ public class PlayerController : MonoBehaviour
         {
             Debug.Log("Dead");
             _playerAnimation.playerDead(true);
+            _gameOverController.PlayerDied();
+
         }
 
     }
@@ -147,7 +151,8 @@ public class PlayerController : MonoBehaviour
         {
             
             _playerAnimation.playerDead(true);
-            UIManager.instance.restartCurrentScene();
+            //UIManager.instance.restartCurrentScene();
+            _gameOverController.PlayerDied();
             Debug.Log("Remaining Lives : " + _lives);
         }
 

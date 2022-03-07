@@ -68,7 +68,9 @@
     <Compile Include="Assets\Scripts\Collectables\ScoreManager.cs" />
     <Compile Include="Assets\Scripts\Enemies\ChomperEnemy.cs" />
     <Compile Include="Assets\Scripts\Enemies\Enemy.cs" />
+    <Compile Include="Assets\Scripts\GameOver\Gameover.cs" />
     <Compile Include="Assets\Scripts\LevelController.cs" />
+    <Compile Include="Assets\Scripts\LobbyController.cs" />
     <Compile Include="Assets\Scripts\PlayerAnimation.cs" />
     <Compile Include="Assets\Scripts\PlayerController.cs" />
     <Compile Include="Assets\Scripts\UImanager\UIManager.cs" />
