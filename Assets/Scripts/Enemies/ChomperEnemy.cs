@@ -1,7 +1,9 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+/// <summary>
+/// Enemy Chomper is created and checking for player collision with Enemy and updating player lives
+/// </summary>
 public class ChomperEnemy : Enemy
 {
     // Initializing target pos
