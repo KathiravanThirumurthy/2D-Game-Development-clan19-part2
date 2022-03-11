@@ -70,6 +70,7 @@
     <Compile Include="Assets\Scripts\Enemies\Enemy.cs" />
     <Compile Include="Assets\Scripts\GameOver\Gameover.cs" />
     <Compile Include="Assets\Scripts\LevelController.cs" />
+    <Compile Include="Assets\Scripts\Levels\LevelManager.cs" />
     <Compile Include="Assets\Scripts\Levels\Levelloader.cs" />
     <Compile Include="Assets\Scripts\Levels\Levels.cs" />
     <Compile Include="Assets\Scripts\LobbyController.cs" />

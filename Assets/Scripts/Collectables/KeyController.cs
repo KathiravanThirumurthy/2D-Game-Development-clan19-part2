@@ -1,7 +1,9 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+/// <summary>
+/// Collecting the collectable key item 
+/// </summary>
 public class KeyController : MonoBehaviour
 {
     // declaring the variable for score

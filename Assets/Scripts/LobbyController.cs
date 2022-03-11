@@ -29,7 +29,6 @@ public class LobbyController : MonoBehaviour
     private void LevelSelect()
     {
         // levelSelector Gameobject is enabled
-
         _levelSelector.SetActive(true);
     }
     //function to quit the game

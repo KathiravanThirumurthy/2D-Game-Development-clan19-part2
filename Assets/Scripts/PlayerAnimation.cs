@@ -14,18 +14,7 @@ public class PlayerAnimation : MonoBehaviour
         //anim = GetComponentInChildren<Animator>();
         anim = GetComponent<Animator>();
     }
-    // Start is called before the first frame update
-    void Start()
-    {
-
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
-
+    
     // player movement method implementation
     public void movement(float move)
     {
