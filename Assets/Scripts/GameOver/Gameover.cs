@@ -36,5 +36,9 @@ public class Gameover : MonoBehaviour
         //loading the currentscene
         SceneManager.LoadScene(scene.buildIndex);
     }
-   
+    public void QuitGame()
+    {
+        //Quitting the Application i.e Game
+        Application.Quit();
+    }
 }
