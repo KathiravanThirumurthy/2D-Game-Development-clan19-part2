@@ -33,7 +33,12 @@ public class PlayerController : MonoBehaviour
     //No. of lives
     [SerializeField]
     private int _lives;
-    
+
+    [SerializeField]
+    private AudioClip keyPickup;
+    [SerializeField]
+    private AudioClip playerDeath;
+
     private void Awake()
     {
         // Initialising rigidbody
@@ -126,6 +131,7 @@ public class PlayerController : MonoBehaviour
     {
        // Debug.Log("Score:" + score);
         _scoreController.incrementScore(score);
+        AudioManager.Instance.PlayCollectable(keyPickup);
     }
 
     public void playerDead(bool playerState)
@@ -154,6 +160,7 @@ public class PlayerController : MonoBehaviour
             //UIManager.instance.restartCurrentScene();
             _gameOverController.PlayerDied();
             Debug.Log("Remaining Lives : " + _lives);
+            AudioManager.Instance.playerDeath(playerDeath);
         }
 
     }

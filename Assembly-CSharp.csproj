@@ -64,6 +64,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\AudioController\AudioManager.cs" />
+    <Compile Include="Assets\AudioController\GamePlayBgMusic.cs" />
     <Compile Include="Assets\Scripts\Collectables\KeyController.cs" />
     <Compile Include="Assets\Scripts\Collectables\ScoreManager.cs" />
     <Compile Include="Assets\Scripts\Enemies\ChomperEnemy.cs" />
